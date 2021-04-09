@@ -100,7 +100,7 @@ endif
 ifeq ($(OPENCV), 1)
 COMMON+= -DOPENCV
 CFLAGS+= -DOPENCV
-LDFLAGS+= -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs
+LDFLAGS+= -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video
 COMMON+= -I/usr/include/opencv4
 endif
 
